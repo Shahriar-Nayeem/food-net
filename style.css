@@ -106,6 +106,7 @@ text-decoration: none;
     margin: 40px 30px;
     padding: 10px 10px;
     border: 10px solid #fff;
+    border-radius: 40px;
     box-shadow: 10px 10px 40px #312f2f;
    }
    .box-img img{
@@ -118,23 +119,7 @@ font-weight: bolder;
 color: black;
 }
 
-/* .small-box{
 
-padding: 80px;
- display: flex;
-}
-.small-box{
-   
-    width:33.3%;
-    /* overflow: hidden; */ 
-
-    /* padding-left: 10%;
-    border-radius: 10px;
-    box-shadow: 10px 10px 40px grey; 
-}  */
-/* .small-sec{
-    padding: 10px 10px 20px 60px;
-} */
 .small-sec h2{
     color: black;
 }
