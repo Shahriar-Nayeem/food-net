@@ -111,3 +111,23 @@ text-decoration: none;
    .box-img img{
     width: 100%;
    }
+
+#foot{
+    color: orange;
+}
+footer h2{
+    text-align: center;
+    color: grey;
+    padding-top: 40px;
+}
+.last-back{
+    background-size: auto;
+    background-color: black;
+}
+footer p{
+
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+ 
