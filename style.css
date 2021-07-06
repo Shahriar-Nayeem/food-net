@@ -36,7 +36,7 @@ text-decoration: none;
     color:white;
     padding: 15px 30px;
     font-weight: 900px;
-    border-radius: 20px;
+    border-radius: 40px;
     display: inline-block;
     margin-top: 40px;
     box-shadow: 10px 10px 20px orangered;
@@ -68,9 +68,46 @@ text-decoration: none;
     color:white;
     padding: 15px 30px;
     font-weight: 900px;
-    border-radius: 20px;
+    border-radius: 40px;
     display: inline-block;
     margin-top: 60px;
     box-shadow: 10px 10px 20px orangered;
     
 }
+.recipe-text h3 {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+   }
+   
+   .recipe-text {
+    color: gray;
+    text-align: center;
+   }
+   
+   .box-section h3 {
+    font-size: 30px;
+    font-weight: bolder;
+   }
+   
+   .box-section {
+    margin: 40px 80px;
+    padding:20px 10px;
+   }
+   
+   .box-container {
+    padding: 10px;
+    display: flex;
+   }
+   
+   .box {
+    width:33.3%;
+    overflow: hidden;
+    margin: 40px 30px;
+    padding: 10px 10px;
+    border: 10px solid #fff;
+    box-shadow: 10px 10px 40px #312f2f;
+   }
+   .box-img img{
+    width: 100%;
+   }
