@@ -1,9 +1,18 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin:0;
+    margin:0%;
+    padding:0%
 }
+
 h1{
-    font-size: 45px;
+    font-size: 65px;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 40px;
+    color: gray;
 }
 .orange-color{
     color:orange;
@@ -11,24 +20,57 @@ h1{
 .top-part{
     display: flex;
 }
-.half{
+.half
+{
     width: 50%;
     padding-left: 10%;
 }
 .half img{
-    width: 70%;
-    
-    
+    width: 90%;   
+}
+
+.link-buttom{
+
+text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color:white;
+    padding: 15px 30px;
+    font-weight: 900px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 40px;
+    box-shadow: 10px 10px 20px orangered;
+}
+.middle-part{
+    display:flex;
+}
+
+.half-mid-text{
+      width: 80%;
+      display: inline-block;
+      margin-top: 60px;
+}
+
+.half-mid img{
+    width: 50%;
+    padding-left: 30%;
+}
+.middle-part{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%; 
     
 }
-.link-buttom{
-text-decoration: none;
-background-image: linear-gradient(orange, tomato);
-color:white;
-padding: 5px 20px;
-font-weight: 700px;
-border-radius: 20px;
-margin-top:0;
-
-
+.contact-buttom{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color:white;
+    padding: 15px 30px;
+    font-weight: 900px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 60px;
+    box-shadow: 10px 10px 20px orangered;
+    
 }
